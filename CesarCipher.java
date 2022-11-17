@@ -14,8 +14,8 @@ public class CesarCipher {
 	// Method to apply the cesar cipher to a string vector (Letters only, no characters, and in lower case)
 	public static char[] cesarCipher(char[] text, int key) {
 		// For a given character of the text passed, it will be changed to the letter a key index to the right
-		// Example: If the key == 3, then "Hello World" becomes "KHPPR ZRUPG".
-		
+		// Example: If the key == 3, then "hello world" becomes "khppr zruog".
+	
 		int index;
 		
 		for (int i=0; i<text.length; ++i) {
