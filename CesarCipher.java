@@ -4,12 +4,6 @@ public class CesarCipher {
 	// An Array which contain the Latim Alphabet
 	final static char alphabet[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i','j', 'k', 'l', 'm', 
             'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-		
-		
-	public static void main(String[] args) {
-		System.out.println(cesarCipher("hello world".toCharArray(), 10));
-	}
-	
 	
 	// Method to apply the cesar cipher to a string vector (Letters only, no characters, and in lower case)
 	public static char[] cesarCipher(char[] text, int key) {
